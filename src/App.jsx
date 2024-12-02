@@ -3,10 +3,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header'; // Import Header globally
 import Home from './Pages/Home';
-import Packages from './pages/Packages';
+import Packages from './Pages/Packages';
 import Blog from './pages/BlogPage';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 import Footer from './components/Footer';
 
 function App() {
